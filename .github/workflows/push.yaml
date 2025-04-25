@@ -6,6 +6,11 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 # what the action will do
 jobs:
   release:
